@@ -31,7 +31,7 @@ body {
 .banner {
     background-image: url(plates-header.jpg);
     background-size: cover;
-
+    font-size: 11px;
 }
 
 .description {
@@ -55,6 +55,7 @@ body {
 .produit {
     width: 33%;
     text-align: center;
+
 }
 
 .produit img {
@@ -62,6 +63,7 @@ body {
     width: 350px;
     height: 200px;
     object-fit: cover;
+    flex-wrap: wrap;
 }
 
 .legende {
@@ -74,16 +76,17 @@ body {
 .nom,
 .prix {
     color: grey;
-}
-
-.object {
+    font-size: 13px;
     font-weight: bold;
 }
 
-@media only screen and (max-width: 768px) {
-    
+.object {
+    font-size: 15px;
+    font-weight: bold;
 }
 
-@media only screen and (max-width: 480px) {
+/* Tablette*/
+@media only screen and (max-width: 768px) {}
 
-}
+/* Mobile */
+@media only screen and (max-width: 480px) {}
